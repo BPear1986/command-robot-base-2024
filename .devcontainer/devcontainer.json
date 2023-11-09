@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "cd /opt && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2024.1.1-beta-3/vscode-wpilib-2024.1.1-beta-3.vsix'",
+    "features": {},
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "/opt/vscode-wpilib-2024.1.1-beta-3.vsix",
+          "vscjava.vscode-java-dependency",
+          "redhat.java",
+          "GitHub.copilot-chat",
+          "GitHub.copilot",
+          "vscjava.vscode-java-debug"
+      ]
+      }
+    }
+  }
+  
